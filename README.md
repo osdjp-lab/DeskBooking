@@ -1,2 +1,2 @@
-# hot-desk-booking
+# DeskBooking
 An online desk reservation system
