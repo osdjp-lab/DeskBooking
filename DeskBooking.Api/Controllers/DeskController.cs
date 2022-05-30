@@ -73,7 +73,6 @@ namespace DeskBooking.Controllers
         {
             if (isSystemUser(Email, Password))
             {
-                // list desks available in the given time period based on Reservations
                 SqlConnection connection = new SqlConnection(connectionString);
                 SqlCommand command = new SqlCommand($"SELECT * FROM Desk WHERE DeskId NOT IN (SELECT DeskId FROM Reservation WHERE StartDate <= {startDate} AND EndDate >= {EndDate})", connection);
                 SqlDataReader reader = command.ExecuteReader();

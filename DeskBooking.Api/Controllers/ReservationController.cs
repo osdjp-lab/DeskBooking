@@ -158,7 +158,6 @@ namespace DeskBooking.Controllers
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
-                    // Select reservations where userid = userid
                     string query = $"SELECT * FROM Reservation WHERE UserId = (SELECT UserId FROM SystemUser WHERE Email = {Email} AND Password = {Password})";
                     using (SqlCommand command = new SqlCommand(query, connection))
                     {
@@ -370,7 +369,6 @@ namespace DeskBooking.Controllers
         {
             if (isAdmin(Email, Password))
             {
-                // delete reservation
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
