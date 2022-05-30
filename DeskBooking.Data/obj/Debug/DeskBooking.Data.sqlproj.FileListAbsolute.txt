@@ -1,0 +1,6 @@
+C:\Users\oscar\source\repos\DeskBooking\DeskBooking.Data\obj\Debug\DeskBooking.Data.sqlproj.AssemblyReference.cache
+C:\Users\oscar\source\repos\DeskBooking\DeskBooking.Data\obj\Debug\DeskBooking.Data.dll
+C:\Users\oscar\source\repos\DeskBooking\DeskBooking.Data\obj\Debug\DeskBooking.Data.pdb
+C:\Users\oscar\source\repos\DeskBooking\DeskBooking.Data\bin\Debug\DeskBooking.Data.dacpac
+C:\Users\oscar\source\repos\DeskBooking\DeskBooking.Data\bin\Debug\DeskBooking.Data.dll
+C:\Users\oscar\source\repos\DeskBooking\DeskBooking.Data\bin\Debug\DeskBooking.Data.pdb

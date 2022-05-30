@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Location]
+(
+	[LocationId] INT NOT NULL,
+	[Country] NVARCHAR(50) NOT NULL,
+	[City] NVARCHAR(50) NOT NULL,
+	[Street] NVARCHAR(50) NOT NULL,
+	PRIMARY KEY CLUSTERED ([LocationId] ASC)
+)
